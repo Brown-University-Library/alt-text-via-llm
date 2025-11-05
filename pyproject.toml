@@ -1,0 +1,14 @@
+[project]
+name = "alt-text-via-llm"
+version = "0.1.0"
+description = "Experimental project to use LLMs on Oscar to create alt-text for images and potentially video description for videos"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Brown University Library" }
+]
+
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
